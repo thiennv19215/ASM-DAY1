@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+<script>
+    function sv(ten,tuoi,gioitinh,diachi){
+        this.ten = ten,
+        this.tuoi = tuoi,
+        this.gioitinh = gioitinh,
+        this.diachi = gioitinh,
+        this.daccu=function(){
+            return 'đá bóng'
+        }
+    }
+
+    let sv3 = new sv('thiện')
+    sv[3] = new sv('nguyễn văn thiênh',18,'nu','hà nội')
+    sv[2] = new sv('nguyễn văn thiáênh',18,'nu','hà nội')
+    sv[1] = new sv('nguyễn văn thiaênh',18,'nu','hà nội')
+    console.log(sv[1].daccu());
+</script>
+</html>
